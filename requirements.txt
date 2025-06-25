@@ -1,0 +1,9 @@
+matplotlib
+numpy
+colorama
+pyfiglet
+rich
+click
+tqdm
+pillow
+hexdump
