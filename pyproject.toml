@@ -1,0 +1,28 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PyMachina"
+version = "1.0.0"
+description = "A binary inspection and visualization tool for EXE, BIN, HEX, and Arduino files."
+authors = [
+  { name="Eden Simamora", email="aeden6877@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "numpy",
+  "matplotlib",
+  "colorama",
+  "pyfiglet",
+  "hexdump",
+  "rich",
+  "click",
+  "tqdm",
+  "Pillow"
+]
+license = {text = "MIT"}
+keywords = ["binary", "hex", "arduino", "reverse engineering", "visualization"]
+
